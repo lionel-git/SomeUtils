@@ -1,0 +1,1 @@
+Get-ChildItem * | Sort-Object -Property LastWriteTime -Descending | Select-Object FullName, LastWritetime
